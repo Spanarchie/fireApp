@@ -1,0 +1,13 @@
+<ion-view view-title="Search">
+  <ion-content>
+    <ion-header-bar class="top">
+      <h1 class="title">Items</h1>
+      <button class="button button-icon ion-plus" ng-click="additem()">
+      </button>
+    </ion-header-bar>
+    <h1>Search</h1>
+    <ion-item ng-repeat="item in itemList" href="#">
+      {{item}}
+    </ion-item>
+  </ion-content>
+</ion-view>

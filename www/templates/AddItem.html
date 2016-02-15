@@ -1,0 +1,37 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Add Item</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeadditem()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="insertItem2List()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Reference</span>
+          <input type="text" required ng-model="itemData.usr">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Status</span>
+          <input type="text" required ng-model="itemData.status">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Comment</span>
+          <input type="text" required ng-model="itemData.comment">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Latitude</span>
+          <input type="text" required ng-model="itemData.lat">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Longitude</span>
+          <input type="text" required ng-model="itemData.long">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Add Item</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

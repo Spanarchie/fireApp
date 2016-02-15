@@ -1,0 +1,15 @@
+{
+  "name": "node-neo4j",
+  "homepage": "https://github.com/philippkueng/node-neo4j",
+  "version": "2.0.3",
+  "_release": "2.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.3",
+    "commit": "663895b5380c4e6a35aa63ba58c1678f45c60497"
+  },
+  "_source": "git://github.com/philippkueng/node-neo4j.git",
+  "_target": "^2.0.3",
+  "_originalSource": "node-neo4j",
+  "_direct": true
+}
